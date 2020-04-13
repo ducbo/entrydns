@@ -56,7 +56,7 @@ gem 'font-awesome-rails', '~> 4.2.0.0'
 gem 'webshims-rails', '~> 1.15.4'
 gem 'detect_timezone_rails', '~> 0.0.3'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails', '~> 3.1.0'
+gem 'jquery-rails', '~> 3.1.5'
 gem 'jquery-ui-rails', '~> 4.2.0'
 gem 'turbolinks', '~> 2.5.2'
 
