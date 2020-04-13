@@ -5,7 +5,7 @@ gem 'rails', '4.1.8'
 gem 'mysql2', '~> 0.3.13'
 
 # Auth
-gem 'devise', '~> 3.1.1'
+gem 'devise', '~> 4.7.1'
 gem 'omniauth', '~> 1.2.1'
 gem 'omniauth-google-oauth2', '~> 0.2.2'
 gem 'cancan', '= 1.6.7'
