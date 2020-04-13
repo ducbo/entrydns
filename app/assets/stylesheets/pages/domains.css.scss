@@ -1,0 +1,22 @@
+#as_users__domains-active-scaffold,
+#as_users__hosts-active-scaffold {
+    .name-column {
+        font-weight: bold;
+        text-shadow: none;
+        .ui-icon {
+            display: inline-block;
+            height: 12px;
+        }
+        .ui-icon-blank {
+            background-image: none;
+        }
+        .icon-share {
+            float: right;
+        }
+    }
+    .content-column {
+        max-width: 200px;
+        overflow: auto;
+    }
+}
+

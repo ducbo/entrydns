@@ -1,0 +1,24 @@
+.navbar-main .nav {
+    li.highlight a {
+        color: darken(yellow, 10%);
+        &:hover { 
+            color: yellow;
+        }
+    }
+    li.highlight.active a {
+        color: yellow;
+    }
+}
+
+.navbar-vertical {
+    .navbar-collapse {
+        padding: 0;
+    }
+    .nav-stacked.navbar-nav {
+        float: none;
+        margin: 0;
+        > li {
+            float: none;
+        }
+    }
+}

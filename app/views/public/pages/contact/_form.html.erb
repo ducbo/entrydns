@@ -1,0 +1,18 @@
+<%= simple_form_for(@contact_form, 
+    url: { action: 'contact' },
+    method: :post
+  ) do |f| %>
+  
+  <%= error_messages_for(@contact_form) %>
+
+  <div style="display:none;">
+    <%= f.text_field :nickname %>
+  </div>
+
+  <%= f.input :name, label: 'Your name' %>
+  <%= f.input :email, label: 'Your email' %>
+  <%= f.input :file, as: :file, hint: 'can be attached optionally' %>
+  <%= f.input :message, as: :text, input_html: { rows: 5 } %>
+  <%= f.submit 'Send', :class => 'btn btn-primary' %>
+
+<% end %>

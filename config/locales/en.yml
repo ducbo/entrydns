@@ -1,0 +1,35 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  errors:
+    action_not_allowed: "Action not allowed"
+    messages:
+      ipv4: "must be a valid IPv4"
+      ipv6: "must be a valid IPv6"
+  activerecord:
+    models:
+      soa: "SOA Record"
+      ns: "NS Record"
+      cname: "CNAME Record"
+      mx: "MX Record"
+      a: "A Record"
+      aaaa: "AAAA Record"
+      txt: "TXT Record"
+      srv: "SRV Record"
+    attributes:
+      domain:
+        ip: "IP"
+        soa_record: "SOA Record"
+        ns_records: "NS Records"
+      record:
+        ttl: "TTL"
+        prio: "Priority"
+
+#    errors
+#      models
+#        a
+#          attributes
+#            content
+#              ipv4
+

@@ -1,0 +1,17 @@
+## Entry DNS
+
+A DNS users frontend.
+
+## Initialize for development
+
+Install required gems
+> bundle install
+
+# create config/database.yml and config/settings.yml from the samples
+> bundle exec rake db:setup
+
+## Tests
+
+Run tests
+> bundle exec rspec spec
+

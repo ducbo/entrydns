@@ -1,0 +1,19 @@
+<%= render 'shared/public_top' %>
+
+  <body class="public">
+    
+    <div id="wrap">
+      
+      <%= render 'shared/navigation' %>
+      <div class="container" id="main">
+        <%= flash_display 'flash' %>
+        <%= yield %>
+      </div>
+      
+      <div id="push"></div>
+    </div>
+    
+    <%= render 'shared/bottom' %>
+    
+  </body>
+</html>

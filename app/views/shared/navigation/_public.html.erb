@@ -1,0 +1,31 @@
+<% semantic_navigation :public_nav, html: { class: 'nav navbar-nav' } do |n| %>
+  <%= n.item '', link: page_path('about') do %>
+    <i class="glyphicon glyphicon-info-sign"></i> About
+  <% end %>
+  <%= n.item '', link: page_path('team') do %>
+    <i class="glyphicon glyphicon-user"></i> Team
+  <% end %>
+  <%= n.item '', link: page_path('contact') do %>
+    <i class="glyphicon glyphicon-envelope"></i> Contact
+  <% end %>
+  <%= n.item '', link: page_path('help') do %>
+    <i class="glyphicon glyphicon-question-sign"></i> Help & Support
+  <% end %>
+<% end %>
+
+<% semantic_navigation :session_nav, html: { class: 'nav navbar-nav navbar-right' } do |n| %>
+  <%= n.item '', link: Settings.news_link, 
+    html: { rel: 'tooltip', data: { placement: 'bottom' }, title: Settings.news_link } do %>
+    <i class="glyphicon glyphicon-share-alt"></i> News
+  <% end %>
+  <%= n.item '', link: page_path('donate'),
+    html: { rel: 'tooltip', title: 'PayPal', data: { placement: 'bottom' }, class: 'highlight' } do %>
+    <i class="glyphicon glyphicon-heart"></i> Donate
+  <% end %>
+  <%= n.item '', link: new_user_registration_path do %>
+    <i class="glyphicon glyphicon-arrow-up"></i> Sign up
+  <% end %>
+  <%= n.item '', link: new_user_session_path do %>
+    <i class="glyphicon glyphicon-arrow-right"></i> Sign in
+  <% end %>
+<% end %>

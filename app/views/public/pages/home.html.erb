@@ -1,0 +1,60 @@
+<div class="page-home-header">
+  <div class="container">
+    <div class="page-header">
+      <h1>
+        Thousands of people manage their DNS using <strong>EntryDNS</strong>
+      </h1>
+    </div>
+  </div>
+</div>
+
+<div class="page-home-incentives">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4">
+        <%= render 'users/registrations/new', wrapper: :inlabel, 
+          resource_name: :user, resource: User.new %>
+        <br class="hidden-lg">
+      </div>
+      <div class="col-lg-7 col-lg-offset-1">
+        <%= render 'public/pages/home/slides' %>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="page-home-quotes hide">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <blockquote>We are two geeks who built a free DNS service to fill a void in this space.The service is free 
+          and we hope to support it on either a freemium model or some sort of affiliate sales.</blockquote>
+      </div>
+      <div class="col-lg-6">
+        <blockquote>Note that we just started it, and there are still things to be done, it's still a work in progress.
+          Nevertheless the service is at this point functional and there are people already using it.</blockquote>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h3>Benefits</h3>
+        <%= render 'public/pages/shared/benefits' %>
+      </div>
+      <div class="col-lg-6">
+        <h3>Features</h3>
+        <%= render 'public/pages/shared/features' %>
+      </div>
+
+    </div>
+  </div>
+</div>
